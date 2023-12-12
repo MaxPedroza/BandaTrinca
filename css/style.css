@@ -5,118 +5,149 @@
 }
 
 body {
-    background-color: rgb(1, 77, 1);
+    
+    /*background-image: linear-gradient(to bottom, rgb(0, 55, 0), rgb(2, 14, 0));*/
+    background-color: rgb(0, 42, 0); 
 }
 
+@font-face {
+    font-family:malrboro ;
+    src: url(/src/MARLBORO.TTF);
+}
+
+
 #container {
+    position: relative;
     margin: 0 auto;
-    width: 85%;
+    width: 80%;
     height: 90%;
     background-color: #3e3d3d;
     box-shadow: 0px 10px 15px rgb(24, 24, 24);
-
-
-
+    border-radius: 5px;
 }
+
+/* CABEÇALHO*/
 
 #header {
-    margin: 0 auto;
-    width: 70%;
+    margin: 0 auto;    
+    width: 1800px;   
     /*border: 1px solid black;*/
-
-
 }
 
+/*NAVEGADOR*/
 #nav {
-
     display: flex;
-    /*border: 1px solid black;*/
-    margin-left: 16.5%;
-
-
+    margin: 0 auto;
+    width: 1200px;    
+    display: flex;
+    /*border: 1px solid blue; */
+    
+   
 }
 
+/*TITULO DOS BOTOES*/
 .titulo-bnt {
-    font-family: 'Dhurjati', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #3e3d3d
+    font-family:'marlboro';
+    color: #3e3d3d;
+    font-size:30px ;
+    margin-top: 2px;
+      
+    
+    
 }
 
-.sep {}
+/*IMAGEM SEPARADORES*/
+.sep {
+    /*border: 1px solid red;*/
+}
 
 #sep-esq {
-    margin-left: 1%;
-}
+    margin-left: 0px;
 
-.bnt {
-    text-align: center;
-    margin: 0 auto;
-
-}
-
-#bnt-home {
-    background-color: white;
-    width: 20%;
-    height: 15%;
-    margin-left: 0%;
-    margin-top: 2%;
-    cursor: pointer;
-
-    :hover {
-        background-color: rgb(159, 158, 158);
-    }
-
-}
-
-#bnt-sobre {
-    background-color: white;
-    width: 10%;
-    height: 10%;
-    margin-left: 0.5%;
-    margin-top: 2%;
-    cursor: pointer;
-}
-
-#bnt-galeria {
-    background-color: white;
-    width: 10%;
-    height: 10%;
-    margin-left: 0.5%;
-    margin-top: 2%;
-    cursor: pointer;
-}
-
-#bnt-agenda {
-    background-color: white;
-    width: 10%;
-    height: 10%;
-    margin-left: 0.5%;
-    margin-top: 2%;
-    cursor: pointer;
-}
-
-#bnt-contato {
-    background-color: white;
-    width: 10%;
-    height: 10%;
-    margin-left: 0.5%;
-    margin-top: 2%;
-    cursor: pointer;
 }
 
 #sep-dir {
-    margin-left: 1%;
-    margin-right: 19%;
+    margin-left: 15px;
 }
 
-#main {
+/*CARACTERISTICAS DOS BOTOES*/
+.bnt {
+    background-color: white;
+    width: 150px;
+    height: 35px;
+    text-align: center; 
+    border-radius: 2px;
+    cursor: pointer; 
+    box-shadow: 0px 2px 6px rgb(24, 24, 24);
+    :hover {        
+        background-color: rgb(226, 226, 226);
+    }   
+}
+
+/*BOTOES*/
+#bnt-home {        
+    margin-left: 0%;
+    margin-top: 2%; 
+}
+
+#bnt-sobre {
+    margin-left: 0.5%;
+    margin-top: 2%;
+}
+
+#bnt-galeria {    
+    margin-left: 0.5%;
+    margin-top: 2%;
+    
+   
+}
+
+#bnt-agenda {    
+    margin-left: 0.5%;
+    margin-top: 2%; 
+}
+
+#bnt-contato {    
+    margin-left: 0.5%;
+    margin-top: 2%;    
+    
+}
+
+/*CENTRO*/
+
+#main {   
     /*border: 1px solid black;*/
-    text-align: center;
+    text-align:center;
+    
 
 }
 
-#home {}
+/*CARACTERISTAS DOS CONTEUDOS*/
+.conteudo{    
+    background-image: url("/img/EmConstrucao.png");
+    font-family: 'marlboro';    
+    margin: 0 auto;
+    width: 1250PX;
+    height: 700PX;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px black;
+    /*border: 1px solid black;*/
+    font-size: 300%;   
+    color: white;
+    text-shadow: 2px 3px 5px black;
+    
+}
+
+.cont-p{
+    margin-left: -50%;
+    
+}
+
+/*CONTEUDOS*/
+
+#home {      
+  
+}
 
 #sobre {}
 
@@ -125,3 +156,42 @@ body {
 #agenda {}
 
 #contato {}
+
+#logo-cont{
+    width: 500px;
+    
+}
+
+/*RODAPÉ*/
+
+#footer{
+    
+}
+
+    /*LOGO DA BANDA*/
+
+/*CARACTERISTICAS DO LOGO */
+#logo{
+    width: 200px;
+    margin-top: -0.5%;
+    margin-left: 90.5%;
+    -webkit-filter: drop-shadow(0px 0px 4px rgb(36, 36, 36) );
+    opacity: 0.5;
+    
+}
+
+/*LOGO*/
+#img-trinca{
+    width: 700px;
+
+}
+
+/* IMAGEM DE CARTAS NO FUNDO*/
+#trinca{
+    position: absolute;
+    margin-left: -165px;
+    margin-top: 450px;
+    transform: rotate(50deg) ;
+    opacity: 0.6;
+}
+
