@@ -5,13 +5,13 @@
 }
 
 body {
-    
+
     /*background-image: linear-gradient(to bottom, rgb(0, 55, 0), rgb(2, 14, 0));*/
-    background-color: rgb(0, 42, 0); 
+    background-color: rgb(0, 42, 0);
 }
 
 @font-face {
-    font-family:malrboro ;
+    font-family: malrboro;
     src: url(/src/MARLBORO.TTF);
 }
 
@@ -29,8 +29,8 @@ body {
 /* CABEÇALHO*/
 
 #header {
-    margin: 0 auto;    
-    width: 1800px;   
+    margin: 0 auto;
+    width: 1800px;
     /*border: 1px solid black;*/
 }
 
@@ -38,22 +38,17 @@ body {
 #nav {
     display: flex;
     margin: 0 auto;
-    width: 1200px;    
+    width: 1200px;
     display: flex;
     /*border: 1px solid blue; */
-    
-   
 }
 
 /*TITULO DOS BOTOES*/
 .titulo-bnt {
-    font-family:'marlboro';
+    font-family: 'marlboro';
     color: #3e3d3d;
-    font-size:30px ;
+    font-size: 30px;
     margin-top: 2px;
-      
-    
-    
 }
 
 /*IMAGEM SEPARADORES*/
@@ -75,19 +70,20 @@ body {
     background-color: white;
     width: 150px;
     height: 35px;
-    text-align: center; 
+    text-align: center;
     border-radius: 2px;
-    cursor: pointer; 
+    cursor: pointer;
     box-shadow: 0px 2px 6px rgb(24, 24, 24);
-    :hover {        
+
+    :hover {
         background-color: rgb(226, 226, 226);
-    }   
+    }
 }
 
 /*BOTOES*/
-#bnt-home {        
+#bnt-home {
     margin-left: 0%;
-    margin-top: 2%; 
+    margin-top: 2%;
 }
 
 #bnt-sobre {
@@ -95,59 +91,60 @@ body {
     margin-top: 2%;
 }
 
-#bnt-galeria {    
+#bnt-galeria {
     margin-left: 0.5%;
     margin-top: 2%;
-    
-   
+
+
 }
 
-#bnt-agenda {    
+#bnt-agenda {
     margin-left: 0.5%;
-    margin-top: 2%; 
+    margin-top: 2%;
 }
 
-#bnt-contato {    
+#bnt-contato {
     margin-left: 0.5%;
-    margin-top: 2%;    
-    
+    margin-top: 2%;
+
 }
 
 /*CENTRO*/
 
-#main {   
+#main {
     /*border: 1px solid black;*/
-    text-align:center;
-    
+    text-align: center;
+
 
 }
 
 /*CARACTERISTAS DOS CONTEUDOS*/
-.conteudo{    
-    background-image: url("/img/EmConstrucao.png");
-    font-family: 'marlboro';    
+.conteudo {
+
+
     margin: 0 auto;
     width: 1250PX;
     height: 700PX;
     border-radius: 10px;
     box-shadow: 3px 5px 10px black;
     /*border: 1px solid black;*/
-    font-size: 300%;   
-    color: white;
-    text-shadow: 2px 3px 5px black;
-    
+
+    background-image: url("/img/EmConstrucao.png");
+    opacity: 0.5;
+
 }
 
-.cont-p{
-    margin-left: -50%;
-    
+.cont-p {
+    font-family: 'marlboro';
+    font-size: 300%;
+    color: white;
+    text-shadow: 2px 3px 5px black;
+    opacity: 1;
 }
 
 /*CONTEUDOS*/
 
-#home {      
-  
-}
+#home {}
 
 #sobre {}
 
@@ -155,43 +152,70 @@ body {
 
 #agenda {}
 
-#contato {}
+/*CONTATO*/
 
-#logo-cont{
+#contato {
+    margin-top: 7%;
+
+}
+
+#logo-cont {
     width: 500px;
-    
+
+}
+
+#redes {
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+#zap {
+    margin-left: -5%;
+}
+
+#insta {
+    margin-top: -1%;
+    margin-left: 1%;
+
+}
+
+#face {
+    margin-left: 2%;
 }
 
 /*RODAPÉ*/
 
-#footer{
-    
-}
+#footer {}
 
-    /*LOGO DA BANDA*/
+/*LOGO DA BANDA*/
 
 /*CARACTERISTICAS DO LOGO */
-#logo{
+#logo {
     width: 200px;
     margin-top: -0.5%;
     margin-left: 90.5%;
-    -webkit-filter: drop-shadow(0px 0px 4px rgb(36, 36, 36) );
+    -webkit-filter: drop-shadow(0px 0px 4px rgb(36, 36, 36));
     opacity: 0.5;
-    
+
+}
+
+#logo-zap {
+    width: 90px;
 }
 
 /*LOGO*/
-#img-trinca{
+#img-trinca {
     width: 700px;
 
 }
 
 /* IMAGEM DE CARTAS NO FUNDO*/
-#trinca{
+#trinca {
     position: absolute;
     margin-left: -165px;
     margin-top: 450px;
-    transform: rotate(50deg) ;
+    transform: rotate(50deg);
     opacity: 0.6;
 }
-
