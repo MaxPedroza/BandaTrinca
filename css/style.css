@@ -65,6 +65,27 @@ body {
     margin-left: 15px;
 }
 
+#seplateral-esq {
+    width: 25px;
+    height: 900px;
+    background-image: url("/img/SepLateralEsq.png");
+    background-size: 25px;
+    /*border: 1px solid black;*/
+    margin-top: 0%;
+    margin-left: 0.5%;
+}
+
+#seplateral-dir {
+    position: absolute;
+    width: 25px;
+    height: 900px;
+    background-image: url("/img/sepLateralDir.png");
+    background-size: 25px;
+    /*border: 1px solid black;*/
+    margin-top: -44%;
+    margin-left: 98.5%;
+}
+
 /*CARACTERISTICAS DOS BOTOES*/
 .bnt {
     background-color: white;
@@ -112,25 +133,23 @@ body {
 /*CENTRO*/
 
 #main {
-    /*border: 1px solid black;*/
+    display: flex;
     text-align: center;
-
-
 }
 
 /*CARACTERISTAS DOS CONTEUDOS*/
 .conteudo {
-
-
-    margin: 0 auto;
+    position: absolute;
     width: 1250PX;
     height: 700PX;
+    margin-left: 20%;
+    margin-top: -42%;
     border-radius: 10px;
     box-shadow: 3px 5px 10px black;
     /*border: 1px solid black;*/
 
     background-image: url("/img/EmConstrucao.png");
-    opacity: 0.5;
+
 
 }
 
@@ -139,7 +158,8 @@ body {
     font-size: 300%;
     color: white;
     text-shadow: 2px 3px 5px black;
-    opacity: 1;
+    margin-left: -30%;
+
 }
 
 /*CONTEUDOS*/
@@ -155,7 +175,8 @@ body {
 /*CONTATO*/
 
 #contato {
-    margin-top: 7%;
+    margin-top: -26.5%;
+    margin-left: 38%;
 
 }
 
@@ -167,7 +188,7 @@ body {
 #redes {
     display: flex;
     justify-content: center;
-    margin-left: 3%;
+    margin-left: -3%;
     margin-top: 5%;
 }
 
@@ -176,13 +197,13 @@ body {
 }
 
 #insta {
-    margin-top: -1%;
+    margin-top: -4%;
     margin-left: 1%;
 
 }
 
 #face {
-    margin-left: 2%;
+    margin-left: 5%;
 }
 
 /*RODAPÉ*/
@@ -192,24 +213,42 @@ body {
 /*LOGO DA BANDA*/
 
 /*CARACTERISTICAS DO LOGO */
+
+#grid-logo {
+    margin-top: -25%;
+}
+
 #logo {
     width: 200px;
-    margin-top: -0.5%;
-    margin-left: 90.5%;
+    margin-top: 0%;
+    margin-left: 45%;
     -webkit-filter: drop-shadow(0px 0px 4px rgb(36, 36, 36));
-    opacity: 0.5;
-
 }
 
 #logo-zap {
     width: 90px;
 }
 
+#foo-img {
+    display: flex;
+}
+
 /*LOGO*/
 #img-trinca {
     width: 700px;
-
 }
+
+#sepinf-esq {
+    position: relative;
+    width: 150px;
+    height: 27px;
+    border: 1px solid blue;
+    background-image: url("/img/SepInf.png");
+    background-size: 300px;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
 
 /* IMAGEM DE CARTAS NO FUNDO*/
 #trinca {
@@ -218,4 +257,12 @@ body {
     margin-top: 450px;
     transform: rotate(50deg);
     opacity: 0.6;
+}
+
+#sepinf-dir {
+    width: 300px;
+    height: 27px;
+    border: 1px solid blue;
+    background-image: url("/img/SepInf.png");
+    background-size: 600px;
 }
