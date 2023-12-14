@@ -24,6 +24,7 @@ body {
 /* IMAGEM DAS CARTAS*/
 #img-trinca {
     width: 700px;
+
     /*border: 1px solid black;*/
 }
 
@@ -34,6 +35,7 @@ body {
 
 
 #container {
+    display: flexbox;
     position: relative;
     margin: 0 auto;
     margin-top: 3%;
