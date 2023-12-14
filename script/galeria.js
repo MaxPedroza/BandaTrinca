@@ -8,7 +8,7 @@ function galeria() {
 
     document.getElementById('bnt-home').style.backgroundColor = "white";
     document.getElementById('bnt-sobre').style.backgroundColor = "white";
-    document.getElementById('bnt-galeria').style.backgroundColor = "black";
+    document.getElementById('bnt-galeria').style.backgroundColor = "#ABABAA";
     document.getElementById('bnt-agenda').style.backgroundColor = "white";
     document.getElementById('bnt-contato').style.backgroundColor = "white";
 }

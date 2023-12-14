@@ -41,9 +41,9 @@ body {
     margin-top: 3%;
     width: 80%;
     height: 70%;
-    background-color: #392620;
-    background-image: linear-gradient(to bottom, #392620, #140e0b);
-    box-shadow: 0px 10px 15px rgb(24, 24, 24);
+    /*background-color: #2a0019de;*/
+    background-image: linear-gradient(to bottom, #2a0019de, #18000e);
+    box-shadow: 0px 10px 15px black;
     border-radius: 5px;
 }
 
@@ -60,7 +60,7 @@ body {
     display: flex;
     margin: 0 auto;
     width: 1200px;
-    display: flex;
+    
     /*border: 1px solid blue; */
 }
 
@@ -94,7 +94,7 @@ body {
 /*TITULO DOS BOTOES*/
 .titulo-bnt {
     font-family: 'marlboro';
-    color: #3e3d3d;
+    color: #2a0019;
     font-size: 30px;
     margin-top: 2px;
 }
@@ -168,7 +168,7 @@ body {
     display: flex;
     margin: 0 auto;
     /*border: 1px solid black;*/
-    margin-left: 19%;
+    margin-left: 25%;
     margin-top: 5%;
     ;
 
@@ -235,13 +235,10 @@ body {
     height: 700PX;
     margin-left: 20%;
     margin-top: 2%;
-    border-radius: 10px;
-    box-shadow: 3px 5px 10px black;
-    /*border: 1px solid black;*/
-
+    /*border-radius: 10px;
+    box-shadow: 3px 5px 10px black;    
     background-image: url("/img/EmConstrucao.png");
-
-
+    background-size: 1250px;*/
 }
 
 .cont-p {
@@ -282,10 +279,13 @@ body {
     justify-content: center;
     margin-left: -3%;
     margin-top: 8%;
+    
 }
 
 #zap {
     margin-left: -5%;
+    
+    
 }
 
 #insta {

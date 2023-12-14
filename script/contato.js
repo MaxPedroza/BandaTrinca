@@ -13,5 +13,5 @@ function contato() {
     document.getElementById('bnt-sobre').style.backgroundColor = "white";
     document.getElementById('bnt-galeria').style.backgroundColor = "white";
     document.getElementById('bnt-agenda').style.backgroundColor = "white";
-    document.getElementById('bnt-contato').style.backgroundColor = "black";
+    document.getElementById('bnt-contato').style.backgroundColor = "#ABABAA";
 }

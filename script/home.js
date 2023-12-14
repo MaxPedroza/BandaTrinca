@@ -7,7 +7,7 @@ function home() {
     document.getElementById('agenda').style.display = "none";
     document.getElementById('contato').style.display = "none";
 
-    document.getElementById('bnt-home').style.backgroundColor = "black";
+    document.getElementById('bnt-home').style.backgroundColor = "#ABABAA";
     document.getElementById('bnt-sobre').style.backgroundColor = "white";
     document.getElementById('bnt-galeria').style.backgroundColor = "white";
     document.getElementById('bnt-agenda').style.backgroundColor = "white";
