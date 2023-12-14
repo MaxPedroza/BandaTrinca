@@ -20,13 +20,15 @@ body {
     opacity: 0.6;
     /*border: 1px solid black;*/
 }
+
 /* IMAGEM DAS CARTAS*/
 #img-trinca {
     width: 700px;
     /*border: 1px solid black;*/
 }
+
 @font-face {
-    font-family: malrboro;
+    font-family: marlboro;
     src: url(/src/MARLBORO.TTF);
 }
 
@@ -72,7 +74,7 @@ body {
 }
 
 /*BOTOES*/
-    
+
 /*CARACTERISTICAS DOS BOTOES*/
 .bnt {
     background-color: white;
@@ -151,7 +153,7 @@ body {
     margin-top: 0%;
     margin-left: 98.5%;
 }
-    
+
 /*CENTRO*/
 
 #main {
@@ -207,6 +209,7 @@ body {
     width: 500px;
 
 }
+
 /* LOGOS REDES SOCIAIS*/
 #redes {
     display: flex;
@@ -249,8 +252,8 @@ body {
 #footer {
     margin: 0 auto;
     display: flex;
-    
-     /*border: 1px solid blue; */
+
+    /*border: 1px solid blue; */
 }
 
 
@@ -265,17 +268,17 @@ body {
 
 /*LOGO DA BANDA*/
 #logo {
-   margin: 0 auto;
+    margin: 0 auto;
     background-image: url("/img/Trinca-Logo.png");
     background-size: 200px;
     width: 200px;
-    height:140px;
-    margin-top: 0%;    
+    height: 140px;
+    margin-top: 0%;
     -webkit-filter: drop-shadow(0px 0px 4px rgb(36, 36, 36));
     /*border: 1px solid black;*/
 }
 
-#sepinf-esq{
+#sepinf-esq {
     margin: 0 auto;
     margin-top: 7%;
     margin-left: 26%;
@@ -285,7 +288,7 @@ body {
     height: 15px;
 }
 
-#sepinf-dir{
+#sepinf-dir {
     margin: 0 auto;
     margin-top: 7%;
     margin-right: 26%;
