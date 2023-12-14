@@ -1,6 +1,6 @@
 function contato() {
     // Conteudo
-
+    document.getElementById('musicos').style.display = "none";
     document.getElementById('home').style.display = "none";
     document.getElementById('sobre').style.display = "none";
     document.getElementById('galeria').style.display = "none";

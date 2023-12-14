@@ -63,8 +63,6 @@ body {
     /*border: 1px solid blue; */
 }
 
-
-
 /*IMAGEM SEPARADORES*/
 .sep {
     /*border: 1px solid red;*/
@@ -163,6 +161,52 @@ body {
     text-align: center;
     /*border: 1px solid blue; */
 }
+
+#musicos {
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+    margin-left: 20%;
+    margin-top: 5%;
+    ;
+
+}
+
+#max {
+    margin: 0 auto;
+    background-image: url("/img/max.png");
+    background-size: 400px;
+    width: 400px;
+    height: 600px;
+    margin-left: 5%;
+    margin-top: 5%;
+    transform: rotate(-10deg);
+}
+
+#nando {
+    margin: 0 auto;
+    background-image: url("/img/nando.png");
+    background-size: 400px;
+    width: 400px;
+    height: 600px;
+    margin-left: -5%;
+    margin-top: 0%;
+    transform: rotate(0deg);
+}
+
+#ale {
+    margin: 0 auto;
+    background-image: url("/img/ale.png");
+    background-size: 425px;
+    width: 400px;
+    height: 610px;
+    margin-left: -5%;
+    margin-top: 5%;
+    transform: rotate(10deg);
+}
+
+
 
 /*CARACTERISTAS DOS CONTEUDOS*/
 .conteudo {
