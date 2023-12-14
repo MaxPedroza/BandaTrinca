@@ -10,6 +10,21 @@ body {
     background-color: rgb(0, 42, 0);
 }
 
+/* IMAGEM DE CARTAS NO FUNDO*/
+/*DIV DAS CARTAS*/
+#trinca {
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 450px;
+    transform: rotate(50deg);
+    opacity: 0.6;
+    /*border: 1px solid black;*/
+}
+/* IMAGEM DAS CARTAS*/
+#img-trinca {
+    width: 700px;
+    /*border: 1px solid black;*/
+}
 @font-face {
     font-family: malrboro;
     src: url(/src/MARLBORO.TTF);
@@ -19,6 +34,7 @@ body {
 #container {
     position: relative;
     margin: 0 auto;
+    margin-top: 3%;
     width: 80%;
     height: 90%;
     background-color: #3e3d3d;
@@ -43,13 +59,7 @@ body {
     /*border: 1px solid blue; */
 }
 
-/*TITULO DOS BOTOES*/
-.titulo-bnt {
-    font-family: 'marlboro';
-    color: #3e3d3d;
-    font-size: 30px;
-    margin-top: 2px;
-}
+
 
 /*IMAGEM SEPARADORES*/
 .sep {
@@ -61,31 +71,8 @@ body {
 
 }
 
-#sep-dir {
-    margin-left: 15px;
-}
-
-#seplateral-esq {
-    width: 25px;
-    height: 900px;
-    background-image: url("/img/SepLateralEsq.png");
-    background-size: 25px;
-    /*border: 1px solid black;*/
-    margin-top: 0%;
-    margin-left: 0.5%;
-}
-
-#seplateral-dir {
-    position: absolute;
-    width: 25px;
-    height: 900px;
-    background-image: url("/img/sepLateralDir.png");
-    background-size: 25px;
-    /*border: 1px solid black;*/
-    margin-top: -44%;
-    margin-left: 98.5%;
-}
-
+/*BOTOES*/
+    
 /*CARACTERISTICAS DOS BOTOES*/
 .bnt {
     background-color: white;
@@ -99,6 +86,14 @@ body {
     :hover {
         background-color: rgb(226, 226, 226);
     }
+}
+
+/*TITULO DOS BOTOES*/
+.titulo-bnt {
+    font-family: 'marlboro';
+    color: #3e3d3d;
+    font-size: 30px;
+    margin-top: 2px;
 }
 
 /*BOTOES*/
@@ -130,11 +125,39 @@ body {
 
 }
 
+
+#sep-dir {
+    margin-left: 15px;
+}
+
+
+#seplateral-esq {
+    width: 25px;
+    height: 900px;
+    background-image: url("/img/SepLateralEsq.png");
+    background-size: 25px;
+    /*border: 1px solid black;*/
+    margin-top: 0%;
+    margin-left: 0.5%;
+}
+
+#seplateral-dir {
+    position: absolute;
+    width: 25px;
+    height: 900px;
+    background-image: url("/img/sepLateralDir.png");
+    background-size: 25px;
+    /*border: 1px solid black;*/
+    margin-top: 0%;
+    margin-left: 98.5%;
+}
+    
 /*CENTRO*/
 
 #main {
     display: flex;
     text-align: center;
+    /*border: 1px solid blue; */
 }
 
 /*CARACTERISTAS DOS CONTEUDOS*/
@@ -143,7 +166,7 @@ body {
     width: 1250PX;
     height: 700PX;
     margin-left: 20%;
-    margin-top: -42%;
+    margin-top: 2%;
     border-radius: 10px;
     box-shadow: 3px 5px 10px black;
     /*border: 1px solid black;*/
@@ -175,7 +198,7 @@ body {
 /*CONTATO*/
 
 #contato {
-    margin-top: -26.5%;
+    margin-top: 10%;
     margin-left: 38%;
 
 }
@@ -184,12 +207,12 @@ body {
     width: 500px;
 
 }
-
+/* LOGOS REDES SOCIAIS*/
 #redes {
     display: flex;
     justify-content: center;
     margin-left: -3%;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 #zap {
@@ -206,63 +229,68 @@ body {
     margin-left: 5%;
 }
 
-/*RODAPÉ*/
-
-#footer {}
-
-/*LOGO DA BANDA*/
-
 /*CARACTERISTICAS DO LOGO */
-
+/*Logo do conteudo contato*/
 #grid-logo {
+    margin: 0 auto;
+    background-image: url("/img/Trinca-Logo.png");
+    background-size: 500px;
+    width: 500px;
     margin-top: -25%;
-}
-
-#logo {
-    width: 200px;
-    margin-top: 0%;
-    margin-left: 45%;
-    -webkit-filter: drop-shadow(0px 0px 4px rgb(36, 36, 36));
+    /*border: 1px solid black;*/
 }
 
 #logo-zap {
     width: 90px;
 }
 
+/*RODAPÉ*/
+
+#footer {
+    margin: 0 auto;
+    display: flex;
+    
+     /*border: 1px solid blue; */
+}
+
+
+/*DIV QUE SUSTENTA O LOGO E SEPARADORES*/
 #foo-img {
     display: flex;
+    margin: 0 auto;
+    margin-top: 0%;
+    width: 50%;
+    /*border: 1px solid black;*/
 }
 
-/*LOGO*/
-#img-trinca {
-    width: 700px;
+/*LOGO DA BANDA*/
+#logo {
+   margin: 0 auto;
+    background-image: url("/img/Trinca-Logo.png");
+    background-size: 200px;
+    width: 200px;
+    height:140px;
+    margin-top: 0%;    
+    -webkit-filter: drop-shadow(0px 0px 4px rgb(36, 36, 36));
+    /*border: 1px solid black;*/
 }
 
-#sepinf-esq {
-    position: relative;
+#sepinf-esq{
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-left: 26%;
+    background-image: url("/img/SepInfEsq.png");
+    background-size: 150px;
     width: 150px;
-    height: 27px;
-    border: 1px solid blue;
-    background-image: url("/img/SepInf.png");
-    background-size: 300px;
-    margin-left: 35%;
-    margin-top: 3%;
+    height: 15px;
 }
 
-
-/* IMAGEM DE CARTAS NO FUNDO*/
-#trinca {
-    position: absolute;
-    margin-left: -165px;
-    margin-top: 450px;
-    transform: rotate(50deg);
-    opacity: 0.6;
-}
-
-#sepinf-dir {
-    width: 300px;
-    height: 27px;
-    border: 1px solid blue;
-    background-image: url("/img/SepInf.png");
-    background-size: 600px;
+#sepinf-dir{
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-right: 26%;
+    background-image: url("/img/SepInfDir.png");
+    background-size: 150px;
+    width: 150px;
+    height: 15px;
 }

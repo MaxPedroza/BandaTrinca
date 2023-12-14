@@ -11,51 +11,70 @@
 </head>
 
 <body>
+    <!--Cartas-->
     <div id="trinca">
         <img src="/img/TrincaCartas.png" alt="" id="img-trinca">
     </div>
+    <!--Container-->
     <div id="container">
+        <!--Header-->
         <header id="header">
+            <!--Nav-->
             <nav id="nav">
+                <!--separador superior esquerdo-->
                 <div id="sep-esq" class="sep"> <img src="/img/Sepesquerdo.png" alt=""> </div>
+                <!--Botao 1-->
                 <div id="bnt-home" class="bnt" onclick="home()">
                     <h1 class="titulo-bnt"> HOME </h1>
                 </div>
+                <!--Botao 2-->
                 <div id="bnt-sobre" class="bnt" onclick="sobre()">
                     <h1 class="titulo-bnt"> SOBRE </h1>
                 </div>
+                <!--Botao 3-->
                 <div id="bnt-galeria" class="bnt" onclick="galeria()">
                     <h1 class="titulo-bnt">GALERIA</h1>
                 </div>
+                <!--Botao 4-->
                 <div id="bnt-agenda" class="bnt" onclick="agenda()">
                     <h1 class="titulo-bnt">AGENDA</h1>
                 </div>
+                <!--Botao 5-->
                 <div id="bnt-contato" class="bnt" onclick="contato()">
                     <h1 class="titulo-bnt">CONTATO</h1>
                 </div>
+                <!--separador superior direito-->
                 <div id="sep-dir" class="sep"><img src="/img/Sepdireito.png" alt=""></div>
             </nav>
-
         </header>
-        <div id="seplateral-esq"></div>
+
+        <!--Main-->
         <main id="main">
+            <!--separador lateral esquerdo-->
+            <div id="seplateral-esq"></div>
+            <!--sections cada conteudo sera mostrado 1 por vez, quando um entra em foco o outro sai-->
+            <!--Conteudo Home-->
             <div id="home" class="conteudo">
                 <p id="cont-home" class="cont-p"> Conteudo Home, em construção...</p>
             </div>
+            <!--Conteudo Sobre-->
             <div id="sobre" class="conteudo">
-                <p id="cont-home" class="cont-p">Conteudo Sobre, em construção...</p>
+                <p id="cont-sobre" class="cont-p">Conteudo Sobre, em construção...</p>
             </div>
+            <!--Conteudo Galeria-->
             <div id="galeria" class="conteudo">
-                <p id="cont-home" class="cont-p">Conteudo Galeria, em construção...</p>
+                <p id="cont-galeria" class="cont-p">Conteudo Galeria, em construção...</p>
             </div>
+            <!--Conteudo Agenda-->
             <div id="agenda" class="conteudo">
-                <p id="cont-home" class="cont-p">Conteudo Agenda, em construção...</p>
+                <p id="cont-agenda" class="cont-p">Conteudo Agenda, em construção...</p>
             </div>
+            <!--Conteudo Contato-->
             <div id="contato" class="conteudo-cont">
                 <div id="grid-logo"><img src="/img/Trinca-Logo.png" alt="" id="logo-cont"></div>
                 <div id="redes">
                     <div id="zap">
-                        <a href="https://wa.me/+5511912487135">
+                        <a href="https://wa.me/+5511912487135" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
                                 viewBox="0 0 50 50" id="logo-zap">
                                 <path
@@ -66,7 +85,7 @@
 
                     </div>
                     <div id="insta">
-                        <a href="">
+                        <a href="https://www.instagram.com/banda.trinca/" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="90"
                                 viewBox="0 0 30 30">
                                 <path
@@ -76,7 +95,7 @@
                         </a>
                     </div>
                     <div id="face">
-                        <a href="">
+                        <a href="https://www.facebook.com/banda.trinca.2023/" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
                                 viewBox="0 0 50 50">
                                 <path
@@ -87,13 +106,18 @@
                     </div>
                 </div>
             </div>
-        </main>
-        <div id="seplateral-dir"></div>
+            <div id="seplateral-dir"></div>
+        </main> 
+        <!--Rodapé-->       
         <footer id="footer">
+            <!--Div que separa os conteudos-->
             <div id="foo-img">
+                <!--Separador inferior esquerdo-->
                 <div id="sepinf-esq"></div>
-                <div><img src="/img/Trinca-Logo.png" alt="" id="logo"></div>
-                <div id="sepinf-esq"></div>
+                <!--logo-->
+                <div id="logo"></div>
+                <!--Separador inferior direito-->
+                <div id="sepinf-"></div>
             </div>
         </footer>
     </div>
