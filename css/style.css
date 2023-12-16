@@ -10,7 +10,6 @@ body {
     background-color: rgb(0, 42, 0);
 }
 
-
 /* IMAGEM DE CARTAS NO FUNDO*/
 /*DIV DAS CARTAS*/
 #trinca {
@@ -34,19 +33,19 @@ body {
     src: url(/src/MARLBORO.TTF);
 }
 
-
 #container {
     display: flexbox;
     position: relative;
     justify-content: space-around;
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 40px;
     width:80%;
+    height: 1000px;    
     justify-content: space-around;   
     /*background-color: #2a0019de;*/
     background-image: linear-gradient(to bottom, #2a0019de, #18000e);
     box-shadow: 0px 10px 15px black;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 /* CABEÇALHO*/
@@ -233,15 +232,10 @@ body {
 
 /*CARACTERISTAS DOS CONTEUDOS*/
 .conteudo {
-    position: absolute;
-    width: 1250PX;
+    position: relative;    
     height: 700PX;
     margin-left: 20%;
-    margin-top: 2%;
-    /*border-radius: 10px;
-    box-shadow: 3px 5px 10px black;    
-    background-image: url("/img/EmConstrucao.png");
-    background-size: 1250px;*/
+    margin-top: 2%;  
 }
 
 .cont-p {
@@ -308,7 +302,7 @@ body {
     background-image: url("/img/Trinca-Logo.png");
     background-size: 500px;
     width: 500px;
-    margin-top: -25%;
+    margin-top:0px;
     /*border: 1px solid black;*/
 }
 
@@ -325,13 +319,12 @@ body {
     /*border: 1px solid blue; */
 }
 
-
 /*DIV QUE SUSTENTA O LOGO E SEPARADORES*/
 #foo-img {
     display: flex;
     margin: 0 auto;
-    margin-top: 0%;
-    width: 50%;
+    margin-top: 0px;
+    width: 1000px;
     /*border: 1px solid black;*/
 }
 
