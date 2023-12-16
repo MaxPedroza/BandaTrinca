@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    /*background-image: linear-gradient(to bottom, rgb(0, 55, 0), rgb(2, 14, 0));*/
+    background-color: rgb(0, 42, 0);
+}
+
+/* IMAGEM DE CARTAS NO FUNDO*/
+/*DIV DAS CARTAS*/
+#trinca {
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 450px;
+    transform: rotate(50deg);
+    opacity: 0.6;
+    /*border: 1px solid black;*/
+}
+
+/* IMAGEM DAS CARTAS*/
+#img-trinca {
+    width: 700px;
+
+    /*border: 1px solid black;*/
+}
+
+@font-face {
+    font-family: marlboro;
+    src: url(/src/MARLBORO.TTF);
+}
+
+#container {
+    display: flexbox;
+    position: relative;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 40px;
+    width:80%;
+    height: 1000px;    
+    justify-content: space-around;   
+    /*background-color: #2a0019de;*/
+    background-image: linear-gradient(to bottom, #2a0019de, #18000e);
+    box-shadow: 0px 10px 15px black;
+    border-radius: 10px;
+}
+
+/* CABEÇALHO*/
+
+#header {
+    margin: 0 auto;
+    width: 1800px;
+    /*border: 1px solid black;*/
+}
+
+/*NAVEGADOR*/
+#nav {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    
+    /*border: 1px solid blue; */
+}
+
+/*IMAGEM SEPARADORES*/
+.sep {
+    /*border: 1px solid red;*/
+}
+
+#sep-esq {
+    margin-left: 0px;
+
+}
+
+/*BOTOES*/
+
+/*CARACTERISTICAS DOS BOTOES*/
+.bnt {
+    background-color: white;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px rgb(24, 24, 24);
+
+    :hover {
+        background-color: rgb(226, 226, 226);
+    }
+}
+
+/*TITULO DOS BOTOES*/
+.titulo-bnt {
+    font-family: 'marlboro';
+    color: #2a0019;
+    font-size: 30px;
+    margin-top: 2px;
+}
+
+/*BOTOES*/
+#bnt-home {
+    margin-left: 0%;
+    margin-top: 2%;
+}
+
+#bnt-sobre {
+    margin-left: 0.5%;
+    margin-top: 2%;
+}
+
+#bnt-galeria {
+    margin-left: 0.5%;
+    margin-top: 2%;
+
+
+}
+
+#bnt-agenda {
+    margin-left: 0.5%;
+    margin-top: 2%;
+}
+
+#bnt-contato {
+    margin-left: 0.5%;
+    margin-top: 2%;
+
+}
+
+
+#sep-dir {
+    margin-left: 15px;
+}
+
+
+#seplateral-esq {
+    position: absolute;
+    width: 25px;
+    height: 900px;
+    background-image: url("/img/SepLateralEsq.png");
+    background-size: 25px;
+    /*border: 1px solid black;*/
+    margin-top: 0%;
+    margin-left: 0.5%;
+}
+
+#seplateral-dir {
+    position: absolute;
+    width: 25px;
+    height: 900px;
+    background-image: url("/img/sepLateralDir.png");
+    background-size: 25px;
+    /*border: 1px solid black;*/
+    margin-top: 0%;
+    margin-left: 98.5%;
+}
+
+/*CENTRO*/
+
+#main {
+    display: flex;
+    text-align: center;
+    /*border: 1px solid blue; */
+}
+
+#musicos {
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+    margin-left: 25%;
+    margin-top: 5%;
+    ;
+
+}
+
+#max {
+    margin: 0 auto;
+    background-image: url("/img/max.png");
+    background-size: 400px;
+    width: 400px;
+    height: 600px;
+    margin-left: 5%;
+    margin-top: 5%;
+    transform: rotate(-10deg);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+#max:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+#nando {
+    margin: 0 auto;
+    background-image: url("/img/nando.png");
+    background-size: 400px;
+    width: 400px;
+    height: 600px;
+    margin-left: -5%;
+    margin-top: 0%;
+    transform: rotate(0deg);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+#nando:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+#ale {
+    margin: 0 auto;
+    background-image: url("/img/ale.png");
+    background-size: 425px;
+    width: 400px;
+    height: 610px;
+    margin-left: -5%;
+    margin-top: 5%;
+    transform: rotate(10deg);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+#ale:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+/*CARACTERISTAS DOS CONTEUDOS*/
+.conteudo {
+    position: relative;    
+    height: 700PX;
+    margin-left: 20%;
+    margin-top: 2%;  
+}
+
+.cont-p {
+    font-family: 'marlboro';
+    font-size: 300%;
+    color: white;
+    text-shadow: 2px 3px 5px black;
+    margin-left: -30%;
+
+}
+
+/*CONTEUDOS*/
+
+#home {}
+
+#sobre {}
+
+#galeria {}
+
+#agenda {}
+
+/*CONTATO*/
+
+#contato {
+    margin-top: 10%;
+    margin-left: 38%;
+
+}
+
+#logo-cont {
+    width: 500px;
+
+}
+
+/* LOGOS REDES SOCIAIS*/
+#redes {
+    display: flex;
+    justify-content: center;
+    margin-left: -3%;
+    margin-top: 8%;
+    
+}
+
+#zap {
+    margin-left: -5%;
+    
+    
+}
+
+#insta {
+    margin-top: -4%;
+    margin-left: 1%;
+
+}
+
+#face {
+    margin-left: 5%;
+}
+
+/*CARACTERISTICAS DO LOGO */
+/*Logo do conteudo contato*/
+#grid-logo {
+    margin: 0 auto;
+    background-image: url("/img/Trinca-Logo.png");
+    background-size: 500px;
+    width: 500px;
+    margin-top:0px;
+    /*border: 1px solid black;*/
+}
+
+#logo-zap {
+    width: 90px;
+}
+
+/*RODAPÉ*/
+
+#footer {
+    margin: 0 auto;
+    display: flex;
+
+    /*border: 1px solid blue; */
+}
+
+/*DIV QUE SUSTENTA O LOGO E SEPARADORES*/
+#foo-img {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 0px;
+    width: 1000px;
+    /*border: 1px solid black;*/
+}
+
+/*LOGO DA BANDA*/
+#logo {
+    margin: 0 auto;    
+    background-image: url("/img/Trinca-Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;    
+    width: 600px;
+    height: 140px;
+    margin-top: 0%;
+    -webkit-filter: drop-shadow(0px 0px 4px rgb(36, 36, 36));
+    /*border: 1px solid black;*/
+}
+
+#sepinf-esq {    
+    margin-top: 7%;
+    margin-left: 26%;
+    background-image: url("/img/SepInfEsq.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    width: 300px;
+    height: 15px;
+}
+
+#sepinf-dir {
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-right: 26%;
+    background-image: url("/img/SepInfDir.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    width: 300px;
+    height: 15px;
+}
+
+@media screen and (max-width:768px){
+    container{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
