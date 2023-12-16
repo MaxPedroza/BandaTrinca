@@ -38,6 +38,7 @@ body {
 #container {
     display: flexbox;
     position: relative;
+    justify-content: space-around;
     margin: 0 auto;
     margin-top: 3%;
     width:80%;
