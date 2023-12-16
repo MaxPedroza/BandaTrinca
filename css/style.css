@@ -426,7 +426,7 @@ body {
         display: flex;
         margin: 0 auto;
         width: 1200px;
-        margin-left: -80px;
+        margin-left: -85px;
     }
 
     #sep-esq{
@@ -442,7 +442,7 @@ body {
     margin-left: 0px;
     background-color: white;
     width: 50px;
-    height: 25px;
+    height: 20px;
     text-align: center;
     border-radius: 2px;
     cursor: pointer;
@@ -473,15 +473,71 @@ body {
     }
 
     #musicos {
-        position: relative;
-        display: none;
+        position: relative;        
         margin: 0 auto;
         /*border: 1px solid black;*/
-        margin-left: 25%;
-        margin-top: 5%;
-        ;
+        margin-left: 2%;
+        margin-top: 25%;       
     
     }
+
+    
+#max {
+    margin: 0 auto;
+    background-image: url("/img/max.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    width: 100px;
+    height: 250px;
+    margin-left: 5%;
+    margin-top: 5%;
+    transform: rotate(-10deg);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+#max:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+#nando {
+    margin: 0 auto;
+    background-image: url("/img/nando.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    width: 100px;
+    height: 250px;
+    margin-left: -5%;
+    margin-top: 0%;
+    transform: rotate(0deg);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+#nando:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+#ale {
+    margin: 0 auto;
+    background-image: url("/img/ale.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    width: 100px;
+    height: 250px;
+    margin-left: -5%;
+    margin-top: 5%;
+    transform: rotate(10deg);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+#ale:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
 
     .cont-p {
         font-family: 'marlboro';
