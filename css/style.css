@@ -382,6 +382,7 @@ body {
 
     body{
         max-width: 100vw;
+        width: 600px;
     }
 
     #trinca {
@@ -416,7 +417,7 @@ body {
     #header{
         margin: 0 auto;
         width: 100px;
-        border: 1px solid black;
+        
     }  
 
    
@@ -425,6 +426,7 @@ body {
         display: flex;
         margin: 0 auto;
         width: 1200px;
+        margin-left: -80px;
     }
 
     #sep-esq{
@@ -434,6 +436,31 @@ body {
     #sep-dir{
         display: none;
     }
+
+    /*CARACTERISTICAS DOS BOTOES*/
+.bnt {
+    margin-left: 0px;
+    background-color: white;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px rgb(24, 24, 24);
+
+    :hover {
+        background-color: rgb(226, 226, 226);
+    }
+}
+
+/*TITULO DOS BOTOES*/
+.titulo-bnt {
+    font-family: 'marlboro';
+    color: #2a0019;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
 
     #seplateral-esq{
         display: none;
@@ -456,8 +483,73 @@ body {
     
     }
 
+    .cont-p {
+        font-family: 'marlboro';
+        font-size: 20px;
+        color: white;
+        text-shadow: 2px 3px 5px black;
+        margin-top: 50px;
+        margin-left: -30%;
+    
+    }
+
+    /*CONTATO*/
+
+#contato {
+    margin-top: 10%;
+    margin-left: 38%;
+
+}
+
+
+
+/* LOGOS REDES SOCIAIS*/
+#redes {
+    display: flex;
+    justify-content: center;
+    margin-left: -80%;
+    margin-top: 20%;
+    
+}
+
+#zap {
+    margin-left: -5%;
+    
+    
+}
+
+#insta {
+    margin-top: -2%;
+    margin-left: 3%;
+
+}
+
+#face {
+    margin-left: 5%;
+}
+
+#logo-zap {
+    width: 90px;
+}
+
+/*CARACTERISTICAS DO LOGO */
+/*Logo do conteudo contato*/
+#logo-cont{
+    display: none;
+    width: 50px;
+}
+#grid-logo {
+    margin: 0 auto;
+    background-image: url("/img/Trinca-Logo.png");
+    background-repeat: no-repeat;
+    background-size: 100px;    
+    margin-top:0px;
+    /*border: 1px solid black;*/
+}
+
+
     #footer{
-        display: none;
+        display:none ;
     }
 
   }
