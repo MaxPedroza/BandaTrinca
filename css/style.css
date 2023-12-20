@@ -40,9 +40,9 @@ body {
     justify-content: space-around;
     margin: 0 auto;
     margin-top: 40px;
-    width:80%;
-    height: 1000px;    
-    justify-content: space-around;   
+    width: 80%;
+    height: 1050px;
+    justify-content: space-around;
     /*background-color: #2a0019de;*/
     background-image: linear-gradient(to bottom, #2a0019de, #18000e);
     box-shadow: 0px 10px 15px black;
@@ -62,7 +62,7 @@ body {
     display: flex;
     margin: 0 auto;
     width: 1200px;
-    
+
     /*border: 1px solid blue; */
 }
 
@@ -109,14 +109,54 @@ body {
 
 #bnt-sobre {
     margin-left: 0.5%;
-    margin-top: 2%;
+    margin-top: 2.1%;
 }
+
+#bnt-sobre:hover #bnt-max {
+    display: block;
+}
+
+#bnt-sobre:hover #bnt-nando {
+    display: block;
+}
+
+#bnt-sobre:hover #bnt-ale {
+    display: block;
+}
+
+#bnt-max {
+    display: none;
+    margin-left: 39.3%;
+    margin-top: -1.6%;
+    width: 130px;
+    height: 35px;
+}
+
+#bnt-nando {
+    display: none;
+    margin-left: 39.3%;
+    margin-top: 0%;
+    width: 130px;
+    height: 35px;
+}
+
+#bnt-ale {
+    display: none;
+    margin-left: 39.3%;
+    margin-top: 0.1%;
+    width: 130px;
+    height: 35px;
+}
+
+/*#bnt-nando:hover #bnt-ale {
+    display: block;
+}*/
+
+
 
 #bnt-galeria {
     margin-left: 0.5%;
     margin-top: 2%;
-
-
 }
 
 #bnt-agenda {
@@ -127,7 +167,6 @@ body {
 #bnt-contato {
     margin-left: 0.5%;
     margin-top: 2%;
-
 }
 
 
@@ -162,6 +201,7 @@ body {
 
 #main {
     display: flex;
+    margin: 0 auto;
     text-align: center;
     /*border: 1px solid blue; */
 }
@@ -171,10 +211,8 @@ body {
     display: flex;
     margin: 0 auto;
     /*border: 1px solid black;*/
-    margin-left: 25%;
+    margin-left: 21%;
     margin-top: 5%;
-    ;
-
 }
 
 #max {
@@ -183,16 +221,16 @@ body {
     background-size: 400px;
     width: 400px;
     height: 600px;
-    margin-left: 5%;
+    margin-left: 0%;
     margin-top: 5%;
     transform: rotate(-10deg);
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
 }
 
-#max:hover{
+#max:hover {
     -webkit-transform: scale(1.1);
-   transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 #nando {
@@ -208,9 +246,9 @@ body {
     transition: transform .5s ease;
 }
 
-#nando:hover{
+#nando:hover {
     -webkit-transform: scale(1.1);
-   transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 #ale {
@@ -226,17 +264,17 @@ body {
     transition: transform .5s ease;
 }
 
-#ale:hover{
+#ale:hover {
     -webkit-transform: scale(1.1);
-   transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /*CARACTERISTAS DOS CONTEUDOS*/
 .conteudo {
-    position: relative;    
+    position: relative;
     height: 700PX;
     margin-left: 20%;
-    margin-top: 2%;  
+    margin-top: 2%;
 }
 
 .cont-p {
@@ -263,33 +301,29 @@ body {
 #contato {
     margin-top: 10%;
     margin-left: 38%;
-
 }
 
 #logo-cont {
     width: 500px;
-
 }
 
 /* LOGOS REDES SOCIAIS*/
 #redes {
     display: flex;
     justify-content: center;
+    height: 247px;
     margin-left: -3%;
     margin-top: 8%;
-    
+
 }
 
 #zap {
     margin-left: -5%;
-    
-    
 }
 
 #insta {
     margin-top: -4%;
     margin-left: 1%;
-
 }
 
 #face {
@@ -302,8 +336,10 @@ body {
     margin: 0 auto;
     background-image: url("/img/Trinca-Logo.png");
     background-size: 500px;
+    background-repeat: no-repeat;
     width: 500px;
-    margin-top:0px;
+    height: 350px;
+    margin-top: -20%;
     /*border: 1px solid black;*/
 }
 
@@ -316,26 +352,26 @@ body {
 #footer {
     margin: 0 auto;
     display: flex;
-
-    /*border: 1px solid blue; */
+    margin-top: 1%;
+    /*border: 1px solid blue;*/
 }
 
 /*DIV QUE SUSTENTA O LOGO E SEPARADORES*/
 #foo-img {
     display: flex;
     margin: 0 auto;
-    margin-top: 0px;
+    margin-top: 0%;
     width: 1000px;
     /*border: 1px solid black;*/
 }
 
 /*LOGO DA BANDA*/
 #logo {
-    margin: 0 auto;    
+    margin: 0 auto;
     background-image: url("/img/Trinca-Logo.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 200px;    
+    background-size: 200px;
     width: 600px;
     height: 140px;
     margin-top: 0%;
@@ -343,7 +379,7 @@ body {
     /*border: 1px solid black;*/
 }
 
-#sepinf-esq {    
+#sepinf-esq {
     margin-top: 7%;
     margin-left: 26%;
     background-image: url("/img/SepInfEsq.png");
@@ -366,246 +402,382 @@ body {
     height: 15px;
 }
 
-/*@media screen and (max-width:768px){
-    container{
-        width: 100%;
-        flex-direction: column;
-        background-color: green;
-    }
-    
-}*/
-
-@media (max-width: 800px) {
+@media (max-width: 1900) {
     .facet_sidebar {
-      display: none;
+        display: none;
     }
 
-    body{
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+
+        /*background-image: linear-gradient(to bottom, rgb(0, 55, 0), rgb(2, 14, 0));*/
+        background-color: rgb(0, 42, 0);
         max-width: 100vw;
-        width: 100%;
     }
 
+    /* IMAGEM DE CARTAS NO FUNDO*/
+    /*DIV DAS CARTAS*/
     #trinca {
-    position: absolute;    
-    margin-left: -10%;
-    margin-top: 40%;
-    transform: rotate(50deg);
-    opacity: 0.6;
-    /*border: 1px solid black;*/
-}
-
-    #img-trinca{
-        width: 500px;
+        position: absolute;
+        margin-left: -100px;
+        margin-top: 450px;
+        transform: rotate(50deg);
+        opacity: 0.6;
+        /*border: 1px solid black;*/
     }
 
-    #container{
-    display: flexbox;
-    position: relative;
-    justify-content: space-around;
-    margin: 0 auto;
-    margin-top: 10%;
-    width:80%;
-    height: 600px;    
-    justify-content: space-around;   
-    /*background-color: #2a0019de;*/
-    background-image: linear-gradient(to bottom, #2a0019de, #18000e);
-    box-shadow: 0px 10px 15px black;
-    border-radius: 10px;
-        
+    /* IMAGEM DAS CARTAS*/
+    #img-trinca {
+        width: 700px;
+
+        /*border: 1px solid black;*/
     }
 
-    #header{
+    @font-face {
+        font-family: marlboro;
+        src: url(/src/MARLBORO.TTF);
+    }
+
+    #container {
+        display: flexbox;
+        position: relative;
+        justify-content: space-around;
         margin: 0 auto;
-        width: 100px;
-        
-    }  
+        margin-top: 40px;
+        width: 80%;
+        height: 900px;
+        justify-content: space-around;
+        /*background-color: #2a0019de;*/
+        background-image: linear-gradient(to bottom, #2a0019de, #18000e);
+        box-shadow: 0px 10px 15px black;
+        border-radius: 10px;
+    }
 
-   
-    
-    #nav{
+    /* CABEÇALHO*/
+
+    #header {
+        margin: 0 auto;
+        width: 1800px;
+        /*border: 1px solid black;*/
+    }
+
+    /*NAVEGADOR*/
+    #nav {
         display: flex;
         margin: 0 auto;
+        margin-left: 15%;
         width: 1200px;
-        margin-left: -85%;
+
+        /*border: 1px solid blue; */
     }
 
-    #sep-esq{
-        display: none;
+    /*IMAGEM SEPARADORES*/
+    .sep {
+        /*border: 1px solid red;*/
     }
 
-    #sep-dir{
-        display: none;
+    #sep-esq {
+        margin-left: 0px;
+
     }
+
+    /*BOTOES*/
 
     /*CARACTERISTICAS DOS BOTOES*/
-.bnt {
-    margin-left: 0px;
-    background-color: white;
-    width: 50px;
-    height: 20px;
-    text-align: center;
-    border-radius: 2px;
-    cursor: pointer;
-    box-shadow: 0px 2px 6px rgb(24, 24, 24);
+    .bnt {
+        background-color: white;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0px 2px 6px rgb(24, 24, 24);
 
-    :hover {
-        background-color: rgb(226, 226, 226);
-    }
-}
-
-/*TITULO DOS BOTOES*/
-.titulo-bnt {
-    font-family: 'marlboro';
-    color: #2a0019;
-    font-size: 15px;
-    margin-top: 2px;
-}
-
-
-    #seplateral-esq{
-        display: none;
-
+        :hover {
+            background-color: rgb(226, 226, 226);
+        }
     }
 
-    #seplateral-dir{
-        display: none;
+    /*TITULO DOS BOTOES*/
+    .titulo-bnt {
+        font-family: 'marlboro';
+        color: #2a0019;
+        font-size: 25px;
+        margin-top: 2px;
+    }
 
+    /*BOTOES*/
+    #bnt-home {
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+
+    #bnt-sobre {
+        margin-left: 0.5%;
+        margin-top: 2%;
+    }
+
+    #bnt-galeria {
+        margin-left: 0.5%;
+        margin-top: 2%;
+
+
+    }
+
+    #bnt-agenda {
+        margin-left: 0.5%;
+        margin-top: 2%;
+    }
+
+    #bnt-contato {
+        margin-left: 0.5%;
+        margin-top: 2%;
+
+    }
+
+
+    #sep-dir {
+        margin-left: 15px;
+    }
+
+
+    #seplateral-esq {
+        position: absolute;
+        width: 25px;
+        height: 900px;
+        background-image: url("/img/SepLateralEsq.png");
+        background-repeat: no-repeat;
+        background-size: 20px;
+        /*border: 1px solid black;*/
+        margin-top: 0%;
+        margin-left: 0.5%;
+    }
+
+    #seplateral-dir {
+        position: absolute;
+        width: 25px;
+        height: 900px;
+        background-image: url("/img/sepLateralDir.png");
+        background-size: 20px;
+        background-repeat: no-repeat;
+        /*border: 1px solid black;*/
+        margin-top: 0%;
+        margin-left: 98.5%;
+    }
+
+    /*CENTRO*/
+
+    #main {
+        display: flex;
+        text-align: center;
+        /*border: 1px solid blue; */
     }
 
     #musicos {
-        position: relative;        
+        position: relative;
+        display: flex;
         margin: 0 auto;
         /*border: 1px solid black;*/
-        margin-left:0%;
-        margin-top: 25%;       
-    
+        margin-left: 25%;
+        margin-top: 5%;
+
+
     }
 
-    
-#max {
-    margin: 0 auto;
-    background-image: url("/img/max.png");
-    background-repeat: no-repeat;
-    background-size: 100px;
-    width: 100px;
-    height: 250px;
-    margin-left: 5%;
-    margin-top: 5%;
-    transform: rotate(-10deg);
-    -webkit-transition: -webkit-transform .5s ease;
-    transition: transform .5s ease;
-}
+    #max {
+        margin: 0 auto;
+        background-image: url("/img/max.png");
+        background-size: 250px;
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 380px;
+        margin-left: 5%;
+        margin-top: 5%;
+        transform: rotate(-10deg);
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
+    }
 
-#max:hover{
-    -webkit-transform: scale(1.1);
-   transform: scale(1.1);
-}
+    #max:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
-#nando {
-    margin: 0 auto;
-    background-image: url("/img/nando.png");
-    background-repeat: no-repeat;
-    background-size: 100px;
-    width: 100px;
-    height: 250px;
-    margin-left: -5%;
-    margin-top: 0%;
-    transform: rotate(0deg);
-    -webkit-transition: -webkit-transform .5s ease;
-    transition: transform .5s ease;
-}
+    #nando {
+        margin: 0 auto;
+        background-image: url("/img/nando.png");
+        background-size: 250px;
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 380px;
+        margin-left: -5%;
+        margin-top: 0%;
+        transform: rotate(0deg);
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
+    }
 
-#nando:hover{
-    -webkit-transform: scale(1.1);
-   transform: scale(1.1);
-}
+    #nando:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
-#ale {
-    margin: 0 auto;
-    background-image: url("/img/ale.png");
-    background-repeat: no-repeat;
-    background-size: 110px;
-    width: 110px;
-    height: 250px;
-    margin-left: -5%;
-    margin-top: 5%;
-    transform: rotate(10deg);
-    -webkit-transition: -webkit-transform .5s ease;
-    transition: transform .5s ease;
-}
+    #ale {
+        margin: 0 auto;
+        background-image: url("/img/ale.png");
+        background-size: 275px;
+        background-repeat: no-repeat;
+        width: 275px;
+        height: 380px;
+        margin-left: -5%;
+        margin-top: 5%;
+        transform: rotate(10deg);
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
+    }
 
-#ale:hover{
-    -webkit-transform: scale(1.1);
-   transform: scale(1.1);
-}
+    #ale:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    /*CARACTERISTAS DOS CONTEUDOS*/
+    .conteudo {
+        position: relative;
+        height: 700PX;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
 
     .cont-p {
         font-family: 'marlboro';
-        font-size: 20px;
+        font-size: 250%;
         color: white;
         text-shadow: 2px 3px 5px black;
-        margin-top: 50px;
         margin-left: -30%;
-    
+
     }
+
+    /*CONTEUDOS*/
+
+    #home {}
+
+    #sobre {}
+
+    #galeria {}
+
+    #agenda {}
 
     /*CONTATO*/
 
-#contato {
-    margin-top: 10%;
-    margin-left: 38%;
-
-}
-
-
-
-/* LOGOS REDES SOCIAIS*/
-#redes {
-    display: flex;
-    justify-content: center;
-    margin-left: -80%;
-    margin-top: 20%;
-    
-}
-
-#zap {
-    margin-left: -5%;
-    
-    
-}
-
-#insta {
-    margin-top: -2%;
-    margin-left: 3%;
-
-}
-
-#face {
-    margin-left: 5%;
-}
-
-#logo-zap {
-    width: 90px;
-}
-
-/*CARACTERISTICAS DO LOGO */
-/*Logo do conteudo contato*/
-#logo-cont{
-    display: none;
-    width: 50px;
-}
-#grid-logo {
-    margin: 0 auto;
-    background-image: url("/img/Trinca-Logo.png");
-    background-repeat: no-repeat;
-    background-size: 100px;    
-    margin-top:0px;
-    /*border: 1px solid black;*/
-}
-
-
-    #footer{
-        display:none ;
+    #contato {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 10%;
+        margin-left: 38%;
     }
 
-  }
+    /*CARACTERISTICAS DO LOGO */
+    /*Logo do conteudo contato*/
+    #grid-logo {
+        margin: 0 auto;
+        background-image: url("/img/Trinca-Logo.png");
+        background-repeat: no-repeat;
+        background-size: 400px;
+        width: 400px;
+        height: 300px;
+        margin-top: -10px;
+        /*border: 1px solid black;*/
+    }
+
+    /* LOGOS REDES SOCIAIS*/
+    #redes {
+        display: flex;
+        justify-content: center;
+        margin-left: -3%;
+        margin-top: 0%;
+
+    }
+
+    #zap {
+        margin-left: -5%;
+
+
+    }
+
+    #insta {
+        margin-top: -4%;
+        margin-left: 1%;
+
+    }
+
+    #face {
+        margin-left: 5%;
+    }
+
+
+
+    #logo-zap {
+        width: 90px;
+    }
+
+    /*RODAPÉ*/
+
+    #footer {
+        margin: 0 auto;
+        margin-top: 8%;
+        display: flex;
+        /*border: 1px solid blue;*/
+    }
+
+    /*DIV QUE SUSTENTA O LOGO E SEPARADORES*/
+    #foo-img {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 0px;
+        width: 1000px;
+        /*border: 1px solid black;*/
+    }
+
+    /*LOGO DA BANDA*/
+    #logo {
+        margin: 0 auto;
+        background-image: url("/img/Trinca-Logo.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 200px;
+        width: 600px;
+        height: 140px;
+        margin-top: 0%;
+        -webkit-filter: drop-shadow(0px 0px 4px rgb(36, 36, 36));
+        /*border: 1px solid black;*/
+    }
+
+    #sepinf-esq {
+        margin-top: 7%;
+        margin-left: 26%;
+        background-image: url("/img/SepInfEsq.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150px;
+        width: 300px;
+        height: 15px;
+    }
+
+    #sepinf-dir {
+        margin: 0 auto;
+        margin-top: 7%;
+        margin-right: 26%;
+        background-image: url("/img/SepInfDir.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150px;
+        width: 300px;
+        height: 15px;
+    }
+}

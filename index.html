@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 780px)" href="./css/mobile.css">
+
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>♠ Banda ♥ Trinca ♣</title>
@@ -46,6 +48,15 @@
                 <!--separador superior direito-->
                 <div id="sep-dir" class="sep"><img src="/img/Sepdireito.png" alt=""></div>
             </nav>
+            <div id="bnt-max" class="bnt" onclick="max()">
+                <h1 class="titulo-bnt"> MAX </h1>
+            </div>
+            <div id="bnt-nando" class="bnt" onclick="nando()">
+                <h1 class="titulo-bnt"> NANDO </h1>
+            </div>
+            <div id="bnt-ale" class="bnt" onclick="ale()">
+                <h1 class="titulo-bnt"> ALE </h1>
+            </div>
         </header>
 
         <!--Main-->
@@ -66,6 +77,15 @@
             <div id="sobre" class="conteudo">
                 <p id="cont-sobre" class="cont-p">Conteúdo Sobre, em construção...</p>
             </div>
+            <div id="sobre-max" class="conteudo">
+                <p id="cont-max" class="cont-p">Conteúdo sobre Max, em construção...</p>
+            </div>
+            <div id="sobre-nando" class="conteudo">
+                <p id="cont-nando" class="cont-p">Conteúdo sobre Nando, em construção...</p>
+            </div>
+            <div id="sobre-ale" class="conteudo">
+                <p id="cont-ale" class="cont-p">Conteúdo sobre Ale, em construção...</p>
+            </div>
             <!--Conteudo Galeria-->
             <div id="galeria" class="conteudo">
                 <p id="cont-galeria" class="cont-p">Conteúdo Galeria, em construção...</p>
@@ -76,7 +96,7 @@
             </div>
             <!--Conteudo Contato-->
             <div id="contato" class="conteudo-cont">
-                <div id="grid-logo"><img src="/img/Trinca-Logo.png" alt="" id="logo-cont"></div>
+                <div id="grid-logo"></div>
                 <div id="redes">
                     <div id="zap">
                         <a href="https://wa.me/+5511991060719" target="_blank">
